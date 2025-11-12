@@ -1,53 +1,34 @@
-> Edited for use in IDX on 07/09/12
+# INSUMO 2 - E2 - EMILY OJEDA
 
-# Welcome to your Expo app 👋
+Este proyecto es una Inteligencia Artificial conversacional **diseñada específicamente para el universo Marvel**. Utiliza la avanzada tecnología de **Google Gemini API** para procesar lenguaje natural y generar respuestas informativas y contextualmente relevantes sobre personajes, historias, eventos y todo lo relacionado con Marvel Comics y el MCU.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Características Principales:
 
-## Get started
+*   **IA Conversacional**: Interactúa de forma natural y comprensiva con el usuario.
+*   **Conocimiento Extenso de Marvel**: Entrenada para proporcionar detalles precisos y curiosidades del vasto multiverso Marvel.
+*   **Integración con Gemini API**: Aprovecha el poder de los modelos de lenguaje de Google para una generación de texto de alta calidad.
+*   **Salida de Consola**: Muestra las interacciones y respuestas directamente en la consola para una experiencia de usuario sencilla y directa.
 
-#### Android
+## ¿Cómo funciona?
 
-Android previews are defined as a `workspace.onStart` hook and started as a vscode task when the workspace is opened/started.
+La IA recibe preguntas o peticiones del usuario relacionadas con Marvel. Procesa esta entrada a través de la API de Gemini, que luego genera una respuesta coherente y relevante basada en su conocimiento sobre el tema. La respuesta final se imprime en la consola, permitiendo una interacción fluida y en tiempo real.
 
-Note, if you can't find the task, either:
-- Rebuild the environment (using command palette: `IDX: Rebuild Environment`), or
-- Run `npm run android -- --tunnel` command manually run android and see the output in your terminal. The device should pick up this new command and switch to start displaying the output from it.
+## Uso:
 
-In the output of this command/task, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You'll also find options to open the app's developer menu, reload the app, and more.
-
-#### Web
-
-Web previews will be started and managred automatically. Use the toolbar to manually refresh.
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+Simplemente ejecuta el programa y comienza a hacer preguntas sobre tus héroes, villanos, sagas favoritas o cualquier aspecto del universo Marvel.
 
 ```bash
-npm run reset-project
+# Ejemplo de interacción en la consola:
+# Usuario: ¿Quién es el verdadero nombre de Iron Man?
+# IA: El verdadero nombre de Iron Man es Anthony Edward "Tony" Stark.
+#
+# Usuario: Cuéntame sobre la saga de Infinity Gauntlet.
+# IA: La saga del Infinity Gauntlet (Guantelete del Infinito) es una de las historias más icónicas de Marvel Comics, escrita por Jim Starlin y con arte de George Pérez y Ron Lim. En ella, el titán loco Thanos reúne las seis Gemas del Infinito (Alma, Espacio, Mente, Realidad, Tiempo y Poder) para forjar el Guantelete del Infinito y erradicar la mitad de la vida del universo en un intento de complacer a la Muerte.
+#
+# Usuario: Menciona tres poderes de Thor.
+# IA: Thor Odinson posee varios poderes notables, entre ellos:
+# 1. Fuerza sobrehumana: Capaz de levantar pesos masivos y golpear con una fuerza increíble.
+# 2. Control del clima: Puede manipular tormentas, rayos, truenos y vientos.
+# 3. Vuelo: A menudo logrado a través de su martillo Mjolnir o su hacha Stormbreaker.
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
